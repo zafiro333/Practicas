@@ -20,13 +20,13 @@ public class Calculadora : MonoBehaviour
 
     public void Calcular()
     {
-        int numero1;
-        int numero2;
+        float numero1;
+        float numero2;
 
         // Validar y convertir los valores de los campos de entrada
-        if (int.TryParse(primerNumero.text, out numero1) && int.TryParse(segundoNumero.text, out numero2))
+        if (float.TryParse(primerNumero.text, out numero1) && float.TryParse(segundoNumero.text, out numero2))
         {
-            int resultado = 0;
+            float resultado = 0;
             switch (operacionDropdown.value)
             {
                 case 0: // Suma
