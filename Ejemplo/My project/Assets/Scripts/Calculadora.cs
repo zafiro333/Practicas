@@ -54,7 +54,7 @@ public class Calculadora : MonoBehaviour
                     Debug.LogError("Operación no soportada.");
                     return;
             }
-            resultadoText.text = resultado.ToString(); // Mostrar el resultado en el campo de texto
+            resultadoText.text = resultado.ToString("F2"); // Mostrar el resultado con dos decimales
         }
         else
         {
