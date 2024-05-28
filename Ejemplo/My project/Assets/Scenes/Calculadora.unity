@@ -512,9 +512,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b6ddaa95f39c749af4dec64ccc4863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  primerNumero: {fileID: 0}
-  segundoNumero: {fileID: 0}
-  resultadoInput: {fileID: 0}
+  primerNumero: {fileID: 1027925226}
+  segundoNumero: {fileID: 978010049}
+  resultadoText: {fileID: 1383132186}
+  calcularButton: {fileID: 2114163448}
 --- !u!4 &584102898
 Transform:
   m_ObjectHideFlags: 0
