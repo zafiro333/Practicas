@@ -657,6 +657,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433d17474cade874b9253e14f1023894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pastel: {fileID: 0}
+  flavorsBase:
+  - {fileID: 21300000, guid: 39254bf95a7957f4d8bb5a6d39e58175, type: 3}
+  - {fileID: 21300000, guid: f4f7f145749030b4d93c6bb5a9229e23, type: 3}
+  - {fileID: 21300000, guid: 4ef9b00b12ba4b040a5c40f733e79125, type: 3}
 --- !u!114 &1366910201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -707,15 +712,27 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Chocolate
-      m_Image: {fileID: 0}
     - m_Text: Vainilla
       m_Image: {fileID: 0}
     - m_Text: Fresa
       m_Image: {fileID: 0}
+    - m_Text: Matcha
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1366910200}
+        m_TargetAssemblyTypeName: FlavorController, Assembly-CSharp
+        m_MethodName: ChangeFlavor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1366910202
 MonoBehaviour:
@@ -782,15 +799,15 @@ RectTransform:
   m_GameObject: {fileID: 1390594738}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.29, y: 1.27, z: 1}
+  m_LocalScale: {x: 0.42368522, y: 0.2865587, z: 0.22563677}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1303984570}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 121}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -33, y: 71}
+  m_SizeDelta: {x: 1440, y: 2560}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390594740
 MonoBehaviour:
@@ -812,7 +829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 39254bf95a7957f4d8bb5a6d39e58175, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1497,7 +1514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chocolate
+  m_text: Vainilla
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
