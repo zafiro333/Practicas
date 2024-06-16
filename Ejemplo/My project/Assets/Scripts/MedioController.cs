@@ -4,30 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class FlavorController : MonoBehaviour
+public class MedioController : MonoBehaviour
 {
     private TMP_Dropdown colorOptions;
-    public Image pastel;
-    public Sprite [] flavorsBase;
+    public Image medio;
+    public Sprite [] flavorsMedio;
 
     void Start()
     {
        colorOptions = GetComponent<TMP_Dropdown>();
-       pastel = GameObject.Find("Pastel").GetComponent<Image>();
+       medio = GameObject.Find("MedioPastel").GetComponent<Image>();
 
     }
-    public void ChangeFlavor()
+    public void ChangeMedio()
     {
         switch (colorOptions.value)
         {
            case 0:
-           pastel.sprite = flavorsBase[0];
+           medio.sprite = flavorsMedio[0];
            break;
            case 1:
-           pastel.sprite = flavorsBase[1];
+           medio.sprite = flavorsMedio[1];
            break;
            case 2:
-           pastel.sprite = flavorsBase[2];
+           medio.sprite = flavorsMedio[2];
            break;
         }
        
