@@ -2991,14 +2991,14 @@ RectTransform:
   m_GameObject: {fileID: 1428529001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.2355, y: 5.2355, z: 5.2355}
+  m_LocalScale: {x: 10.576234, y: 5.2355, z: 5.2355}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1680616785}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: 1950}
+  m_AnchoredPosition: {x: 75, y: 2027}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1428529003
@@ -3023,8 +3023,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CALCULADORA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2a90d1d7524a87848934c2b0fc544c9a, type: 2}
-  m_sharedMaterial: {fileID: 6338178295221327613, guid: 2a90d1d7524a87848934c2b0fc544c9a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 39008889da2abad4c8d3bc9297450489, type: 2}
+  m_sharedMaterial: {fileID: 9148028915084404667, guid: 39008889da2abad4c8d3bc9297450489, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3048,7 +3048,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.65
+  m_fontSize: 44.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
