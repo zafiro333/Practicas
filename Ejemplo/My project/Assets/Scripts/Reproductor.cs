@@ -5,10 +5,17 @@ using UnityEngine;
 public class Reproductor : MonoBehaviour
 {
     public AudioSource repAudio;
-    // Start is called before the first frame update
+    public List<AudioClip> album_01 = new List<AudioClip>();
+    public Transform trackContainer;
+    public GameObject trackObj;
+
+    
     void Start()
     {
-        
+       for (int i = 0; i < album_01.Count; i++)
+        {
+            Instantiate(trackObj, trackContainer);
+        }
     }
 
     // Update is called once per frame

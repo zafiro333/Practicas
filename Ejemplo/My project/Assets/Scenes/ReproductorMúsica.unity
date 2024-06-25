@@ -971,6 +971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789367400}
   - component: {fileID: 1789367399}
+  - component: {fileID: 1789367401}
   m_Layer: 0
   m_Name: AudioSource
   m_TagString: Untagged
@@ -1089,6 +1090,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1789367401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789367398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7be21e73e662e4283f0cdcbbef9d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repAudio: {fileID: 0}
+  album_01:
+  - {fileID: 8300000, guid: 8f8d3bb96800dcf4ba1e46dcf20b21a8, type: 3}
+  - {fileID: 8300000, guid: 0c62b5dab0f2b8a4e91ab62a5448a50e, type: 3}
+  - {fileID: 8300000, guid: 82c9e98f28431094b84567202b901cfc, type: 3}
+  - {fileID: 8300000, guid: 19025818487d4ac4b91636b48d0e943c, type: 3}
+  - {fileID: 8300000, guid: 52a98739762cc734eba055fd56bb522e, type: 3}
+  - {fileID: 8300000, guid: 5b486c92240018542b2c7aaf388fb3e4, type: 3}
+  - {fileID: 8300000, guid: 2a591f2b35421274ea1d651f38a5a5e0, type: 3}
+  - {fileID: 8300000, guid: 55efa528f89a62649a7543b4c73ffd9b, type: 3}
+  - {fileID: 8300000, guid: a95f37d6585b07c4f9fb7844a74b2e17, type: 3}
+  - {fileID: 8300000, guid: 07c97c3fc821df8448810110327d06cd, type: 3}
+  - {fileID: 8300000, guid: 345c90c82124c4f4bb1d3da8fc6b50d1, type: 3}
+  - {fileID: 8300000, guid: 9fe9de197c37cb045bd77eb4ec6d2ba6, type: 3}
+  - {fileID: 8300000, guid: ca5f05fab86c9024890549ae58a0494a, type: 3}
+  - {fileID: 8300000, guid: c66469c9e60e4254083a0853cb891641, type: 3}
+  - {fileID: 8300000, guid: f2a2852668de43b48af0afa71ff023f1, type: 3}
+  - {fileID: 8300000, guid: 769056512ab79de4aac8449d0421c33a, type: 3}
+  trackContainer: {fileID: 869500845}
+  trackObj: {fileID: 7461770863309103343, guid: 5eeb735bfdbef79458f0f9caf30929b3, type: 3}
 --- !u!1 &2006374249
 GameObject:
   m_ObjectHideFlags: 0
