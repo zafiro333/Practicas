@@ -12,9 +12,10 @@ public class Reproductor : MonoBehaviour
     
     void Start()
     {
-       for (int i = 0; i < album_01.Count; i++)
+       for (int i = 0; i < album_01.Count -1; i++)
         {
             Instantiate(trackObj, trackContainer);
+            trackObj.GetComponent<Track>().clip = album_01[i];
         }
     }
 

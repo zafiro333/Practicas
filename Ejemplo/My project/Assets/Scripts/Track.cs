@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 public class Track : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioClip clip;
+    public TMP_Text clipName;
+
+
+    
     void Start()
     {
-        
+        clipName.text = clip.name;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
