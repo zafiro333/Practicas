@@ -8,6 +8,7 @@ public class Reproductor : MonoBehaviour
     public List<AudioClip> album_01 = new List<AudioClip>();
     public Transform trackContainer;
     public GameObject trackObj;
+    public int currentTrack;
 
     
     void Start()
@@ -16,12 +17,7 @@ public class Reproductor : MonoBehaviour
         {
             Instantiate(trackObj, trackContainer);
             trackObj.GetComponent<Track>().clip = album_01[i];
+            trackObj.GetComponent<Track>().idTrack = i;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
