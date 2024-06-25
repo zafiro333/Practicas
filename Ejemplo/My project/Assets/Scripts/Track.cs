@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using Unity.VisualScripting;
 
 
 public class Track : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip clip;
-    public Button thisButton;
     public TMP_Text clipName;
     public int idTrack;
 
@@ -35,6 +32,7 @@ public class Track : MonoBehaviour
     {
         audioSource.clip = clip;
         audioSource.Play();
+        Reproductor.instance.currentTrack = idTrack;
     }    
    
 }
