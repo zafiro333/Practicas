@@ -5,7 +5,6 @@ using UnityEngine;
 public class ControladorBeta : MonoBehaviour
 
 {
-    public GameObject logo;
     public GameObject popUp;
     // Start is called before the first frame update
     void Start()
@@ -17,12 +16,6 @@ public class ControladorBeta : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void ClickEnBotonPulsar()
-    {
-        Debug.Log("Se ha pulsado el botón.");
-        //logo.SetActivate(false);
     }
     public void MostrarPopUp()
     {
