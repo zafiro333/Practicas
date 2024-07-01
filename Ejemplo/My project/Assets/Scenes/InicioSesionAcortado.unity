@@ -1599,7 +1599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: 557}
+  m_AnchoredPosition: {x: 3, y: 557}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849299491
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WWW.www
+  m_text: www.blogz
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4812b07251ceace46b19ffd30f707f00, type: 2}
   m_sharedMaterial: {fileID: 7108402701329388912, guid: 4812b07251ceace46b19ffd30f707f00, type: 2}
@@ -2158,7 +2158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: blog
+  m_text: tu sitio favorito de opiniones
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4812b07251ceace46b19ffd30f707f00, type: 2}
   m_sharedMaterial: {fileID: 7108402701329388912, guid: 4812b07251ceace46b19ffd30f707f00, type: 2}
@@ -2185,7 +2185,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.6
+  m_fontSize: 23.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
