@@ -5557,7 +5557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelAlertas: {fileID: 1603851647}
   textoAlertas:
-  - Usuario Validado Correctamente
+  - "Usuario V\xE1lido"
   - Usuario No Existente
   - Usuario Ya Existente
   - Usuario Creado Correctamente
