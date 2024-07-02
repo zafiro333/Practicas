@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 117812606}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1526405273}
+        m_TargetAssemblyTypeName: "Men\xFAInicial, Assembly-CSharp"
+        m_MethodName: "ReproductorM\xFAsica"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &117812606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,7 +406,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 260573815}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1526405273}
+        m_TargetAssemblyTypeName: "Men\xFAInicial, Assembly-CSharp"
+        m_MethodName: "Selecci\xF3nPastel"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &260573815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,7 +1283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1288907778}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1526405273}
+        m_TargetAssemblyTypeName: "Men\xFAInicial, Assembly-CSharp"
+        m_MethodName: IS
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1288907778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1728,7 +1764,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1759793336}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1526405273}
+        m_TargetAssemblyTypeName: "Men\xFAInicial, Assembly-CSharp"
+        m_MethodName: RepVideo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1759793336
 MonoBehaviour:
   m_ObjectHideFlags: 0
